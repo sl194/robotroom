@@ -12,7 +12,7 @@ Users can adjust the height of multiple robotic floor panels using an web interf
 
 The UI includes a built-in simulation mode that mimics the behaviour of the physical panels.
 
-![Test Mode Demo](demo/testmode.mp4)
+https://github.com/user-attachments/assets/dcf5c1c9-f327-4c27-bd4a-36ec7911e5e2
 
 ---
 

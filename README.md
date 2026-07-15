@@ -9,6 +9,8 @@ Users can adjust the height of multiple robotic floor panels using an web interf
 ## Demo
 https://github.com/user-attachments/assets/dcf5c1c9-f327-4c27-bd4a-36ec7911e5e2
 
+Simultate actual user flow with **Test Mode** without needing the Arduino or physical panels.
+
 ---
 
 ## Features
@@ -143,18 +145,3 @@ POS,11.8,18.4,24.9
 ```
 
 The UI ignores all other serial debug messages.
-
----
-
-# Test Mode
-
-Test mode allows the interface to simulate the actual user flow without the Arduino or physical panels.
-
-Behaviour:
-
-- Slider updates target height immediately.
-- Press **Confirm Move**.
-- Simulated panel moves towards the requested height.
-- Elevation bars animate exactly like the physical system.
-
-Simulation uses the same data flow as the real hardware, making it useful for UI development and demonstrations.
